@@ -180,6 +180,12 @@ body {
   font-weight: 400;
 }
 
+.attribution {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 15px;
+}
+
 .attribution,
 .attribution a {
   color: hsl(220, 15%, 55%);
