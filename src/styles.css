@@ -76,6 +76,7 @@ body {
 
 .heading {
   padding: 1.25rem 0.5rem;
+  color: var(--dark-blue);
 }
 
 .text {
