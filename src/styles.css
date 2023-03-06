@@ -27,7 +27,7 @@ body {
   font-size: 0.938rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-direction: column;
   background-color: var(--light-grey);
 }
@@ -42,35 +42,23 @@ body {
   margin: 0 2rem;
   max-width: 20.313rem;
   text-align: center;
+  margin-top: 5rem;
 }
 
 .image {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(../src/images/image-qr-code.png);
-  background-position: center;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  height: 18rem;
   width: 100%;
+  display: block;
+  max-width: 100%;
   border-radius: 0.7rem;
-  overflow: hidden;
   cursor: pointer;
 }
 
-.image-hover {
-  width: 100%;
-  height: 100%;
-  background-image: url(../src/images/image-qr-code.png);
-  background-position: center;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  transform: scale(1.5);
-  opacity: 0;
-}
-
-.image-hover:hover {
+.image:hover {
+  zoom: 2;
+  overflow: hidden;
   opacity: 1;
 }
 
@@ -85,8 +73,10 @@ body {
 }
 
 .attribution {
-  position: fixed;
-  bottom: 0;
+  /* position: fixed;
+  bottom: 0; */
+
+  margin-top: auto;
   width: 100%;
   text-align: center;
   background-color: #537fe7;
@@ -104,3 +94,10 @@ body {
   font-size: 1.15rem;
   transition: font-size 250ms ease-in-out;
 }
+
+/* @media (min-width: 47.5rem) {
+  .attribution {
+    position: fixed;
+    bottom: 0;
+  }
+} */
