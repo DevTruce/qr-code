@@ -95,9 +95,9 @@ body {
   transition: font-size 250ms ease-in-out;
 }
 
-/* @media (min-width: 47.5rem) {
+@media (min-width: 47.5rem) {
   .attribution {
     position: fixed;
     bottom: 0;
   }
-} */
+}
