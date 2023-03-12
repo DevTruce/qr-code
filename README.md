@@ -1,113 +1,141 @@
-# Frontend Mentor - QR code component solution
+<a id="readme-top"></a>
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-## Table of contents
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/DevTruce/qr-code">
+    <img src="src/images/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-- [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Author](#author)
+<h3 align="center">QR Code</h3>
 
-## Overview
+  <p align="center">
+    qr code frontend mentor challenge 
+    <br />
+    <a href="https://github.com/DevTruce/qr-code"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://devtruce.github.io/qr-code/">View Demo</a>
+    ·
+    <a href="https://github.com/DevTruce/qr-code/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/DevTruce/qr-code/issues">Request Feature</a>
+  </p>
+</div>
 
-### Screenshot
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+    </li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-![](src/images/solution.png)
+<!-- ABOUT THE PROJECT -->
 
-### Links
+## About The Project
 
-- Solution:([Solution](https://www.frontendmentor.io/solutions/qr-code-component-challenge-vRT9RsHLfY))
-- Live Site:([Live Site](https://devtruce.github.io/qr-code/))
+<img src='src/images/screenshot.png' alt='project example'>
 
-## My process
+This project is a challenge from [Frontend Mentor](https://www.frontendmentor.io/home), the goal is to build this webpage and make sure it is responsive using the example images given with the challenge.
 
-I had a fun time building this challenge out its just two flexbox colums so it was quick, simple and fun. I feel like I could have placed the footer a little better but I did not see it in the challenge screenshots so I was unsure of where it was assigned to go.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Built with
+### Built With
 
-- HTML5
-- CSS3
-- Flexbox
+- [![HTML5][html5.com]][html5-url]
+- [![CSS3][css3.com]][css3-url]
+  - [![flexbox][flexbox.com]][flexbox-url]
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-```html
-<header class="image">
-  <a href="https://www.frontendmentor.io/home" class="image-hover"></a>
-</header>
-```
+<!-- GETTING STARTED -->
 
-```css
-:root {
-  --light-grey: hsl(212, 45%, 89%);
-  --grayish-blue: hsl(220, 15%, 55%);
-  --dark-blue: hsl(218, 44%, 22%);
-}
+## Getting Started
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  letter-spacing: 0.015rem;
-}
+<img src="src/images/step1.png" alt=""> 
+<img src="src/images/step2.png" alt=""> 
+<img src="src/images/step3.png" alt="">
 
-body {
-  min-height: 100vh;
-  font-family: "Outfit";
-  font-size: 400;
-  font-size: 0.938rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background-color: var(--light-grey);
-}
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-.container {
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  border-radius: 1rem;
-  overflow: hidden;
-  padding: 1rem;
-  margin: 0 2rem;
-  max-width: 20.313rem;
-  text-align: center;
-}
+<!-- LICENSE -->
 
-.image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url(../src/images/image-qr-code.png);
-  background-position: center;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  height: 18rem;
-  width: 100%;
-  border-radius: 0.7rem;
-  overflow: hidden;
-  cursor: pointer;
-}
+## License
 
-.image-hover {
-  width: 100%;
-  height: 100%;
-  background-image: url(../src/images/image-qr-code.png);
-  background-position: center;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  transform: scale(1.5);
-  opacity: 0;
-}
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-.image-hover:hover {
-  opacity: 1;
-}
-```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Author
+<!-- CONTACT -->
 
-- Frontend Mentor - [@DevTruce](https://www.frontendmentor.io/profile/DevTruce)
+## Contact
+
+Email: [DevTruce@Gmail.com]()
+
+Discord: [Xzypher#9999]()
+
+Project Link: [Pricing Panel](https://github.com/DevTruce/qr-code)
+
+Frontend Mentor: [Frontend Mentor Profile](https://www.frontendmentor.io/profile/DevTruce)
+
+[Stack Overflow](https://stackoverflow.com/users/16258101/dev-truce) | [Showwcase](https://www.showwcase.com/devtruce) | [Twitter](https://twitter.com/DevTruce) | [Reddit](https://www.reddit.com/user/DevTruce)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[html5.com]: https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5&logoColor=white
+[html5-url]: https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5&logoColor=white
+[css3.com]: https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=CSS3&logoColor=white
+[css3-url]: https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=CSS3&logoColor=white
+[flexbox.com]: https://img.shields.io/badge/flexbox-blue?style=for-the-badge&logo=CSS3&logoColor=white
+[flexbox-url]: https://img.shields.io/badge/flexbox-blue?style=for-the-badge&logo=CSS3&logoColor=white
+[grid.com]: https://img.shields.io/badge/Grid-blue?style=for-the-badge&logo=CSS3&logoColor=white
+[grid-url]: https://img.shields.io/badge/Grid-blue?style=for-the-badge&logo=CSS3&logoColor=white
+[contributors-shield]: https://img.shields.io/github/contributors/DevTruce/qr-code.svg?style=for-the-badge
+[contributors-url]: https://github.com/DevTruce/qr-code/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/DevTruce/qr-code.svg?style=for-the-badge
+[forks-url]: https://github.com/DevTruce/qr-code/network/members
+[stars-shield]: https://img.shields.io/github/stars/DevTruce/qr-code.svg?style=for-the-badge
+[stars-url]: https://github.com/DevTruce/qr-code/stargazers
+[issues-shield]: https://img.shields.io/github/issues/DevTruce/qr-code.svg?style=for-the-badge
+[issues-url]: https://github.com/DevTruce/qr-code/issues
+[license-shield]: https://img.shields.io/github/license/DevTruce/qr-code.svg?style=for-the-badge
+[license-url]: https://github.com/DevTruce/qr-code/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/trucer/
+[product-screenshot]: images/screenshot.png
+[next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[next-url]: https://nextjs.org/
+[react.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[react-url]: https://reactjs.org/
+[vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
+[vue-url]: https://vuejs.org/
+[angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
+[angular-url]: https://angular.io/
+[svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
+[svelte-url]: https://svelte.dev/
+[laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
+[laravel-url]: https://laravel.com
+[bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[bootstrap-url]: https://getbootstrap.com
+[jquery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[jquery-url]: https://jquery.com
