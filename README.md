@@ -74,6 +74,7 @@ This particular challenge has you building a simple QR Code card, there is minim
 
 - [![HTML5][html5-icon]][html5-link]
 - [![CSS3][css3-icon]][css3-link]
+- [![Flexbox][flexbox-icon]][flexbox-link]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
