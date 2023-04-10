@@ -20,15 +20,15 @@ $gutter-medium: 2rem;
 // MEDIA QUERY MANAGER
 @mixin respond($breakpoint) {
   @if $breakpoint == very-small-phone {
-    @media only screen and (max-width: 21.25em) {
-      // 340px
+    @media only screen and (max-width: 18.75em) {
+      // 300px
       @content;
     }
   }
 
   @if $breakpoint == small-phone {
-    @media only screen and (max-width: 24.6875em) {
-      // 395px
+    @media only screen and (max-width: 22.5em) {
+      // 360px
       @content;
     }
   }
