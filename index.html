@@ -3,52 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/styles.css" />
-    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="src/css/style.css" />
+
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+
     <title>Frontend Mentor | QR code component</title>
   </head>
   <body>
-    <main class="container">
-      <img
-        class="image"
-        src="src/images/image-qr-code.png"
-        alt="QR Code Going to https://www.frontendmentor.io/home"
-      />
+    <!-- 
+     ///////////////////////////////////////////////
+     // CARD COMPONENET
+     -->
+    <main class="card">
+      <!-- CARD QR IMAGE -->
+      <a
+        href="https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H/hub"
+        class="card__qr-link"
+        target="_blank"
+        ><img
+          src="src/imgs/image-qr-code.png"
+          alt="QR code directing you to the frontend mentor website"
+          class="card__image"
+      /></a>
 
-      <article class="qr-article">
-        <h1 class="heading">
-          Improve your front-end skills by building projects
-        </h1>
-
-        <p class="text">
-          Scan the QR code to visit Frontend Mentor and take your coding skills
-          to the next level
-        </p>
-      </article>
+      <!-- CARD HEADER -->
+      <h1 class="header-1">
+        Improve your front-end skills by building projects
+      </h1>
+      <p class="card__text">
+        Scan the QR code to visit Frontend Mentor and take your coding skills to
+        the next level
+      </p>
     </main>
-
-    <footer class="attribution">
-      <p>
-        Challenge by
-        <a
-          class="links"
-          href="https://www.frontendmentor.io/home"
-          target="_blank"
-          >Frontend Mentor</a
-        >
-      </p>
-      <p>
-        Coded by
-        <a class="links" href="https://github.com/DevTruce" target="_blank"
-          >Truce R</a
-        >
-      </p>
-    </footer>
   </body>
 </html>
