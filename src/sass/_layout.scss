@@ -5,7 +5,7 @@
   background-color: $color-white-1;
   border-radius: 2rem;
   overflow: hidden;
-  padding: 1.7rem 1.7rem 3rem 1.7rem;
+  padding: 1.7rem 1.7rem 4rem 1.7rem;
 
   text-align: center;
 
@@ -26,15 +26,14 @@
   }
 
   &__text {
-    padding: 0 3rem;
+    padding: 0 2rem;
     color: $color-grey-blue;
-    // margin-top: -2.6rem;
+    // margin-top: -0.6rem;
   }
 }
 
 .header-1 {
   font-size: $font-medium;
-  padding: 0 3rem;
   font-weight: 700;
   color: $color-dark-blue;
 }
