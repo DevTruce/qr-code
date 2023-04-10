@@ -14,7 +14,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/DevTruce/qr-code">
-    <img src="src/images//logo.png" alt="Logo" width="80" height="80">
+    <img src="src/imgs/favicon-32x32.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">QR Code Challenge</h3>
@@ -63,10 +63,11 @@
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](product-link)
+[View Demo](https://devtruce.github.io/qr-code/)
 
 This project is a challenge created by frontend mentor and coded by me.
 The goal is to build a webpage based on the images/designs they provide.
-This particular challenge has you building a simple QR Code card, there is minimal animations in the footers when hovering select elements as well as the qr code is connected to the frontend mentor website.
+This particular challenge has you building a simple QR Code card.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -74,7 +75,7 @@ This particular challenge has you building a simple QR Code card, there is minim
 
 - [![HTML5][html5-icon]][html5-link]
 - [![CSS3][css3-icon]][css3-link]
-- [![Flexbox][flexbox-icon]][flexbox-link]
+- [![SASS][sass-icon]][sass-link]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -82,15 +83,31 @@ This particular challenge has you building a simple QR Code card, there is minim
 
 ## Getting Started
 
-[View Demo](https://devtruce.github.io/qr-code/)
-<img src="src/images/step1.png" alt="">
-<img src="src/images/step2.png" alt="">
-<img src="src/images/step3.png" alt="">
-
 ### Prerequisites
 
-- Mobile Phone / Desktop / Tablet
-- Internet
+- npm
+  ```sh
+  npm install npm@latest -g
+  ```
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/DevTruce/qr-code.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Dev environment
+   ```sh
+   npm run start
+   ```
+4. Build package
+   ```sh
+   npm run build:css
+   ```
 
 <!-- USAGE EXAMPLES -->
 
@@ -172,8 +189,8 @@ Project Link: [QR Code](https://github.com/DevTruce/qr-code)
 
 <!-- ## Project ## -->
 
-[product-screenshot]: src/images/screenshot.png
-[product-link]: https://LINK-HERE
+[product-screenshot]: src/imgs/project-view.png
+[product-link]: https://devtruce.github.io/qr-code/
 
 <!-- ## Socials ## -->
 <!-- links -->
@@ -197,6 +214,7 @@ Project Link: [QR Code](https://github.com/DevTruce/qr-code)
 
 [html5-link]: https://html-icon/
 [css3-link]: https://css3-icon/
+[sass-link]: https://sass-lang.com/
 [flexbox-link]: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
 [grid-link]: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
 [bootstrap-link]: https://getbootstrap-icon
@@ -209,6 +227,7 @@ Project Link: [QR Code](https://github.com/DevTruce/qr-code)
 
 [html5-icon]: https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5&logoColor=white
 [css3-icon]: https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=CSS3&logoColor=white
+[sass-icon]: https://img.shields.io/badge/SASS-AA77FF?style=for-the-badge&logo=SASS&logoColor=white
 [flexbox-icon]: https://img.shields.io/badge/flexbox-blue?style=for-the-badge&logo=CSS3&logoColor=white
 [grid-icon]: https://img.shields.io/badge/Grid-blue?style=for-the-badge&logo=CSS3&logoColor=white
 [bootstrap-icon]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
