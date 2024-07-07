@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+///////////////////////////////////////////////
+// RESET
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%; // 1rem = 10px
+  box-sizing: inherit;
+
+  @include respond(small-phone) {
+    font-size: 55%;
+  }
+
+  @include respond(very-small-phone) {
+    font-size: 47%;
+  }
+}
+
+body {
+  min-height: 100vh;
+  box-sizing: border-box;
+  font-size: $font-default;
+  font-weight: 400;
+  font-family: "Outfit";
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: $color-light-grey-1;
+}

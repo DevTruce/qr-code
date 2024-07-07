@@ -1,0 +1,39 @@
+.card {
+  //   display: block;
+  //   width: 32rem;
+  //   height: 49.7rem;
+  background-color: $color-white-1;
+  border-radius: 2rem;
+  overflow: hidden;
+  padding: 1.7rem 1.7rem 4rem 1.7rem;
+
+  text-align: center;
+
+  display: grid;
+  grid-template-columns: min-content;
+  grid-template-rows: min-content;
+  grid-row-gap: $gutter-medium;
+  align-items: center;
+
+  &__qr-link {
+  }
+
+  &__image {
+    display: block;
+    width: 28.8rem;
+    height: 28.8rem;
+    border-radius: 1rem;
+  }
+
+  &__text {
+    padding: 0 2rem;
+    color: $color-grey-blue;
+    // margin-top: -0.6rem;
+  }
+}
+
+.header-1 {
+  font-size: $font-medium;
+  font-weight: 700;
+  color: $color-dark-blue;
+}

@@ -1,0 +1,35 @@
+///////////////////////////////////////////////
+// COLORS
+$color-white-1: hsl(0, 0%, 100%);
+$color-light-grey-1: hsl(212, 45%, 89%);
+$color-grey-blue: hsl(220, 15%, 55%);
+$color-dark-blue: hsl(218, 44%, 22%);
+
+///////////////////////////////////////////////
+// FONTS
+
+$font-default: 1.5rem;
+$font-medium: 2.2rem;
+
+///////////////////////////////////////////////
+// GUTTERS
+$gutter-small: 1rem;
+$gutter-medium: 2rem;
+
+///////////////////////////////////////////////
+// MEDIA QUERY MANAGER
+@mixin respond($breakpoint) {
+  @if $breakpoint == very-small-phone {
+    @media only screen and (max-width: 18.75em) {
+      // 300px
+      @content;
+    }
+  }
+
+  @if $breakpoint == small-phone {
+    @media only screen and (max-width: 22.5em) {
+      // 360px
+      @content;
+    }
+  }
+}
