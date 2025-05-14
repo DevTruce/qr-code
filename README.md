@@ -18,7 +18,7 @@
 <h3 align="center">QR Code Challenge</h3>
 
   <p align="center">
-    completed frontend mentor challenge
+    A clean and responsive QR code UI component.
     <br />
     <br />
     <a href="https://devtruce.github.io/qr-code/" target="_blank">View Demo</a>
